@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import numpy as np
 import face_recognition as fr
 import cv2
@@ -45,3 +46,6 @@ while True:
 
 cv2.destroyAllWindows()
     
+=======
+
+>>>>>>> 79bc710c4eb0c77c93dc63940dd07373423c7a1d
