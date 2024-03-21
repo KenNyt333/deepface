@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import numpy as np
 import face_recognition as fr
 import cv2
@@ -6,7 +5,7 @@ import cv2
 video_capture = cv2.VideoCapture(0)
 
 my_image = fr.load_image_file("face.jpg")
-my_face_encoding = fr.face_encodings(bruno_image)[0]
+my_face_encoding = fr.face_encodings(my_image)[0]
 
 known_face_encondings = [my_face_encoding]
 known_face_names = ["Adrian"]
@@ -42,10 +41,7 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-    video_capture.release()
+video_capture.release()
 
 cv2.destroyAllWindows()
-    
-=======
 
->>>>>>> 79bc710c4eb0c77c93dc63940dd07373423c7a1d
